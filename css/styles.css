@@ -1,0 +1,474 @@
+body {
+font-family: montserrat, sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+font-weight: bold;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+#title {
+  background-color: #ff4c68;
+  color: #fff
+  ;
+
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  
+  
+}
+
+.container-fluid {
+padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight:bold ;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+  
+}
+
+.navbar-brand {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+   
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* download-buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-image {
+width: 60%;
+transform: rotate(25deg);
+}
+
+/* features */
+
+#features {
+  margin: 5%;
+  padding: 5%;
+}
+
+h3 {
+  font-weight: bolder;
+  text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+p {
+  margin: auto;
+  text-align: center;
+  width:70%;
+  font-weight: 700;
+}
+
+/* icons */
+
+.fas {
+  display: flex;
+  margin:auto;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5%;
+  color: #ff4c68;
+}
+
+
+.fas:hover {
+  color:red ;
+}
+
+
+/* testimonial section */
+
+#testimonials {
+  
+  text-align: center;
+background-color: #ef8172;
+color: #fff;
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/* pricing */
+
+
+.pb-100 {
+	padding-bottom: 100px;
+}
+.pt-100 {
+	padding-top: 100px;
+}
+a{
+    text-decoration:none;
+}
+.section-title h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #777;
+}
+.section-title h2 {
+	font-size: 32px;
+	text-transform: capitalize;
+	margin: 15px 0;
+	display: inline-block;
+	position: relative;
+	font-weight: 700;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.section-title p {
+	font-weight: 300;
+	font-size: 14px;
+}
+.black-bg .section-title h2, .black-bg .section-title h4, .black-bg .section-title p {
+  color:#fff
+}
+.section-title h2:before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #777;
+  bottom: 0;
+  left: 50%;
+  margin-left: -75px;
+}
+.section-title h2:after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #e16038;
+  border: darkblue;
+  bottom: -1px;
+  left: 50%;
+  margin-left: -40px;
+}
+.section-title {
+  margin-bottom: 70px;
+}
+.single-price-left {
+	text-align: center;
+	padding: 30px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  border: 2px groove deeppink;
+  border-radius: 20px;
+}
+
+.single-price-center {
+  text-align: center;
+	padding: 30px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  border: 2px groove deeppink;
+  border-radius: 20px;
+}
+
+.single-price-right {
+  text-align: center;
+	padding: 30px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  border: 2px groove deeppink;
+  border-radius: 20px;
+}
+
+
+
+
+.price-title h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+
+
+.price-tag {
+	margin: 30px 0;
+	background-color:#3feee6;
+	color: #fff;
+  padding: 10px 0;
+  border-radius: 50px;
+  
+}
+.center.price-tag {
+	background-color: tomato;
+	color: #fff
+}
+.right.price-tag {
+  background-color: #05386b;
+	color: #fff
+}
+
+
+
+
+.price-tag h2 {
+	font-size: 45px;
+	font-weight: 600;
+	font-family: poppins;
+}
+.price-tag h2 span {
+  font-weight: 300;
+  font-size: 16px;
+  font-style: italic;
+}
+.price-item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.price-item ul li {
+  font-size: 14px;
+  padding: 5px 0;
+  border-bottom: 1px dashed #eee;
+  margin: 5px 0;
+}
+.price-item ul li:last-child {
+  border-bottom: 0;
+}
+.single-price a {
+  margin-top: 15px;
+}
+
+
+a.box-btn {
+	background-color: tomato;
+	padding: 5px 20px;
+	display: inline-block;
+	color: #fff;
+	text-transform: capitalize;
+	border-radius: 3px;
+	font-size: 15px;
+  transition: .3s;
+  border: 2px groove tomato;
+  border-style: outset;
+
+}
+a.box-btn:hover, a.border-btn:hover {
+  background-color: transparent;
+  color: #ff4c68;
+  font-weight: bolder;
+  border: 2px groove pink;
+  text-decoration: none;
+  
+}
+
+
+/* call to action */
+
+#cta {
+  background-color: #ff4c68;
+  padding-top: 10px;
+  height: 280px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+.f-play-btn {
+  position: absolute;
+  left: 40%;
+  
+
+}
+
+.f-apple-btn {
+  position: absolute;
+  left: 50%;
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+#footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top: 0px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icotwitter:hover {
+background-color: #1DA1F2
+}
+
+.social-network a.icoemail:hover {
+background-color: #FBBC05;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoTwitter:hover {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+.text-center:hover {
+  color: #44BCDD;
+font-weight: bold;
+}
